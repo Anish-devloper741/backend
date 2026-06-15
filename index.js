@@ -19,3 +19,6 @@ mongoose.connect("mongodb://anishjatu9_db_user:anish541@ac-a9xrc0t-shard-00-00.m
 .catch((err)=>{
     console.log(err);
 })
+
+
+module.exports = app;
