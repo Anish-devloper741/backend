@@ -1,7 +1,7 @@
 let User = require("../models/user");
 let bcrypt = require("bcryptjs");
 let jwt = require("jsonwebtoken");
-let JWT_SECRET = "trd7r6tyug"
+let JWT_SECRET = process.env.JWT_SECRET
 
 exports.register =async(req,res)=>{
 
